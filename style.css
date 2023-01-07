@@ -1,0 +1,280 @@
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  background-color: #000000;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar a {
+  float: left;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#float-right {
+  float: right;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: "Bebas Neue", cursive;
+}
+
+.navbar a:hover,
+dropdown:hover,
+dropbtn {
+  background-color: rgba(113, 75, 150, 0.467);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffffc4;
+  min-width: 160px;
+  box-shadow: 0px 5px 5px 0px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(112, 75, 150, 0.516);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header {
+  background-image: url("https://wallpapercave.com/wp/wp2793839.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 20px;
+  padding-bottom: 450px;
+}
+
+#titulo-1 {
+  font-size: 100px;
+  color: rgba(255, 255, 255, 0.926);
+  text-align: center;
+  margin: 0;
+}
+
+#text-1 {
+  color: rgba(255, 255, 255, 0.989);
+  font-size: 23px;
+  text-align: center;
+  margin: 10px 18%;
+  margin-top: 40px;
+}
+
+.section-1 {
+  background-color: rgba(255, 255, 255, 0.951);
+  margin-top: 0px;
+  padding: 150px;
+  margin-bottom: px;
+}
+
+#title-2 {
+  color: black;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 70px;
+  margin-bottom: 80px;
+}
+
+.album_name {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+
+.album-photo1 {
+  width: 62%;
+}
+
+.album-photo {
+  margin-left: 80px;
+  transition: all 0.9s;
+  cursor: pointer;
+  width: 60%;
+}
+
+.album-photo:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(0.9);
+}
+
+.section-2 {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 100px;
+  margin-bottom: 60px;
+}
+
+#title-3 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 70px;
+  margin-top: 50px;
+}
+
+#h2-tickets {
+  letter-spacing: 5px;
+  font-family: "Bebas Neue", cursive;
+  margin-bottom: 80px;
+}
+
+.place-photo {
+  width: 60%;
+}
+
+.boxshow-1,
+.boxshow-2,
+.boxshow-3 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-left: 85px;
+  margin-right: 85px;
+  padding: 50px;
+}
+
+.boxshow-3 {
+  padding: 60px;
+}
+
+.city {
+  font-family: "Bebas Neue", cursive;
+  margin-bottom: 2px;
+}
+
+.place {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  height: 50px;
+}
+
+.section-3 {
+  background-color: rgb(236, 236, 236);
+
+  padding: 200px;
+}
+#contactos {
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px;
+  text-align: center;
+}
+
+#mensagem {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+form {
+  float: right;
+}
+
+#submit-button {
+  padding: 5px;
+  float: right;
+  height: 35px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #ffffffc4;
+  text-align: center;
+  padding: 30px;
+}
+
+.dados {
+  float: left;
+}
+
+.fab {
+  color: grey;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
